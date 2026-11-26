@@ -1,5 +1,9 @@
 # 近完美量子态传输：几何增长的读出时间
 
+**证明署名：** Chain.Ren · 独立研究 · [完整证明](PROOF.md) · 版本日期：2026-11-26
+
+[固定版本证明](https://github.com/Asakitan/pgst-geometric-readout/blob/proof-v1.0.0/PROOF.md) · [GitHub Release 与公开时间](https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.0) · [引用信息](CITATION.cff)
+
 对任意有限无向简单图，若指定顶点对在邻接矩阵量子行走中具有近完美态传输（PGST），则可用精确代数预处理构造两数 $y>0,\rho>1$，使
 
 $$

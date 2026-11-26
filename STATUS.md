@@ -5,3 +5,5 @@
 复核：`python -B verify_p4.py` 检查四点路径的代数数据；一般数域的算法由证明描述，未实现为程序。
 
 [首页](README.md) · [工作记录](docs/session-log/README.md)
+
+**公开证明版本：** [proof-v1.0.0](https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.0)，版本日期 2026-11-26；署名 Chain.Ren（独立研究）。

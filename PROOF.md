@@ -1,5 +1,11 @@
 # Geometric readout sequences for pretty good state transfer
 
+**Byline:** Chain.Ren · Independent research
+
+**Version:** [proof-v1.0.0](https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.0) · version date: 2026-11-26 (Australia/Sydney); see the release for the actual publication timestamp.
+
+OpenAI Codex provided substantive assistance with the proof and reproducibility materials. No institutional endorsement, peer review, or verified worldwide priority is claimed.
+
 **Scope.** Coutinho and Guo's [Open Problem 2.4](https://doi.org/10.1515/spma-2024-0025) has two requests: decide pretty good state transfer (PGST) in polynomial time, and compute successive readout times witnessing it. The result below addresses the **readout** request, for every finite simple undirected graph and every pair with PGST for the adjacency Hamiltonian. It gives a single geometric progression of times after exact arithmetic preprocessing. It makes no polynomial-time decision or preprocessing claim, and the times may be physically very long. In particular it is not a resolution of both parts of Problem 2.4. No worldwide priority claim is made.
 
 ## Theorem
