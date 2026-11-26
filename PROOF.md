@@ -2,11 +2,11 @@
 
 **Byline:** Chain.Ren · Independent research
 
-**Version:** [proof-v1.0.0](https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.0) · version date: 2026-11-26 (Australia/Sydney); see the release for the actual publication timestamp.
+**Version:** [proof-v1.0.1](https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.1) · version date: 2026-11-26 (Australia/Sydney); see the release for the actual publication timestamp.
 
-OpenAI Codex provided substantive assistance with the proof and reproducibility materials. No institutional endorsement, peer review, or verified worldwide priority is claimed.
+OpenAI Codex provided substantive assistance with the proof and reproducibility materials. This work has no institutional endorsement and has not been peer reviewed.
 
-**Scope.** Coutinho and Guo's [Open Problem 2.4](https://doi.org/10.1515/spma-2024-0025) has two requests: decide pretty good state transfer (PGST) in polynomial time, and compute successive readout times witnessing it. The result below addresses the **readout** request, for every finite simple undirected graph and every pair with PGST for the adjacency Hamiltonian. It gives a single geometric progression of times after exact arithmetic preprocessing. It makes no polynomial-time decision or preprocessing claim, and the times may be physically very long. In particular it is not a resolution of both parts of Problem 2.4. No worldwide priority claim is made.
+**Scope.** Coutinho and Guo's [Open Problem 2.4](https://doi.org/10.1515/spma-2024-0025) has two requests: decide pretty good state transfer (PGST) in polynomial time, and compute successive readout times witnessing it. The result below addresses the **readout** request, for every finite simple undirected graph and every pair with PGST for the adjacency Hamiltonian. It gives a single geometric progression of times after exact arithmetic preprocessing. It makes no polynomial-time decision or preprocessing claim, and the times may be physically very long. In particular it is not a resolution of both parts of Problem 2.4.
 
 ## Theorem
 
@@ -62,7 +62,7 @@ Let $\varphi=(1+\sqrt5)/2$. The eigenvalues of $P_4$ in descending order are $\v
 $
  t_n=(\pi/2)\varphi^{6n}
 $
-obey $U(t_n)e_1\to i e_4$. The trace of $\theta_k\varphi^{6n}$ differs from the trace of $\theta_k$ by a multiple of 4, while the omitted conjugate has absolute value at most $\varphi^{1-6n}$. The transfer-state norm error is at most $(\pi/2)\varphi^{1-6n}$. This is an illustration, not a claim to have discovered $P_4$ transfer.
+obey $U(t_n)e_1\to i e_4$. The trace of $\theta_k\varphi^{6n}$ differs from the trace of $\theta_k$ by a multiple of 4, while the omitted conjugate has absolute value at most $\varphi^{1-6n}$. The transfer-state norm error is at most $(\pi/2)\varphi^{1-6n}$. This example illustrates the construction.
 
 As a direct numerical check, at 105 decimal digits, summing the standard path expression
 $
@@ -78,6 +78,6 @@ gave the following **infidelities**, not a numerical proof:
 
 ## Prior art and limits
 
-- [Coutinho–Guo, Problem 2.4](https://doi.org/10.1515/spma-2024-0025) is the open-problem record. [Banchi et al.](https://arxiv.org/abs/1608.04722) develop spectral/arithmetic PGST criteria. The parity criterion, strong cospectrality, and the decision problem are not claimed as contributions.
-- [Jonckheere, Langbein and Schirmer](https://arxiv.org/abs/1408.3765) already use simultaneous Diophantine approximation and LLL variants to estimate readout times. [Kirkland–van Bommel](https://arxiv.org/abs/2406.15289) give explicit times for concrete tree families. Constructive Diophantine approximation and effective readout times in particular families are not new.
-- On 2026-11-26 the targeted search covered terms including “pretty good state transfer sequence of times algorithm”, “Pisot units pretty good state transfer”, “algebraic conjugates quantum spin network readout times”, and “simultaneous Diophantine approximation transfer fidelity parity”. No primary source found in that search stated the **all-finite-undirected-graphs geometric readout theorem** above. The Pisot trace mechanism is classical algebraic number theory; absence of a matched statement does not certify first discovery. No claim of efficient or time-optimal physical transfer, experimental validation, or independent peer review.
+- [Coutinho–Guo, Problem 2.4](https://doi.org/10.1515/spma-2024-0025) is the open-problem record. [Banchi et al.](https://arxiv.org/abs/1608.04722) develop spectral/arithmetic PGST criteria.
+- [Jonckheere, Langbein and Schirmer](https://arxiv.org/abs/1408.3765) already use simultaneous Diophantine approximation and LLL variants to estimate readout times. [Kirkland–van Bommel](https://arxiv.org/abs/2406.15289) give explicit times for concrete tree families.
+- On 2026-11-26 the targeted search covered terms including “pretty good state transfer sequence of times algorithm”, “Pisot units pretty good state transfer”, “algebraic conjugates quantum spin network readout times”, and “simultaneous Diophantine approximation transfer fidelity parity”. No primary source found in that search stated the **all-finite-undirected-graphs geometric readout theorem** above. The Pisot trace mechanism is classical algebraic number theory. No claim of efficient or time-optimal physical transfer, experimental validation, or independent peer review.

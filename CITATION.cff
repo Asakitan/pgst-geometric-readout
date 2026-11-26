@@ -3,9 +3,9 @@ message: "To cite the independently released proof and verification materials, u
 title: "Geometric readout sequences for pretty good state transfer"
 authors:
   - family-names: "Chain.Ren"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-26"
-url: "https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.0"
+url: "https://github.com/Asakitan/pgst-geometric-readout/releases/tag/proof-v1.0.1"
 repository-code: "https://github.com/Asakitan/pgst-geometric-readout"
 license: MIT
 preferred-citation:
@@ -13,6 +13,6 @@ preferred-citation:
   title: "Geometric readout sequences for pretty good state transfer"
   authors:
     - family-names: "Chain.Ren"
-  version: "1.0.0"
+  version: "1.0.1"
   year: 2026
-  url: "https://github.com/Asakitan/pgst-geometric-readout/blob/proof-v1.0.0/PROOF.md"
+  url: "https://github.com/Asakitan/pgst-geometric-readout/blob/proof-v1.0.1/PROOF.md"
